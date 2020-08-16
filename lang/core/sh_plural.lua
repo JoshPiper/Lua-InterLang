@@ -6,9 +6,6 @@
 --]]--
 AddCSLuaFile()
 
-local PLATE = PLATE_SHARED
-PLATE.Language = PLATE.Language or {}
-
 local plural = {}
 plural.__index = plural
 
