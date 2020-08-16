@@ -6,6 +6,8 @@ A plural rule is a language rule, which determines how to change a word, dependi
 For example, for English, the plural rule has 2 outcomes.
 A form for words qualified by "1" (1 page), and another for any other number (2 pages, 0 pages, etc)
 
+A list of plural rules can be found at https://developer.mozilla.org/en-US/docs/Mozilla/Localization/Localization_and_Plurals
+
 @copyright 2020 Joshua Piper
 @release development
 @author Joshua Piper
