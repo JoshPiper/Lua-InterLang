@@ -27,10 +27,14 @@ end
 -- @function plural.__call
 plural.__call = plural.Set
 
+--- Get the given plural form, given the numeric qualifier.
+-- @number num
+-- @treturn string
 function plural:Check(num)
 	return self.set[self.parent.pluralRule:Check(num)]
 end
 
+--- Register this plural in the language.
 function plural:Register()
 	self.parent:RegisterPlural(self)
 end
