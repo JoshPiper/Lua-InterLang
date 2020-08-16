@@ -1,4 +1,7 @@
 --[[-- License Plate Plural Handler
+
+This class is a representation of a single plural.
+
 @copyright 2020 Joshua Piper
 @release development
 @author Joshua Piper
